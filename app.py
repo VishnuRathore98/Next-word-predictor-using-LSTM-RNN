@@ -30,7 +30,7 @@ def predict_next_word(model, tokenizer, text, max_sequence_len):
 
 
 # streamlit app
-st.title("Next Word Prediction With LSTM")
+st.title("Next-Word Predictor Trained on Shakespeare’s Hamlet")
 input_text = st.text_input("Enter the sequence of Words", "To be or not to")
 if st.button("Predict Next Word"):
     # Retrieve the max sequence length from the model input shape
